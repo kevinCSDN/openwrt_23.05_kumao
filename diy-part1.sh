@@ -63,7 +63,8 @@ rm -rf feeds/packages/net/v2ray-geodata
 rm -rf feeds/luci/themes/luci-theme-argon
 
 cd package
-git clone https://github.com/f8q8/luci-app-autoreboot.git 
+git clone https://github.com/f8q8/luci-app-autoreboot.git
+git clone -b js https://github.com/sirpdboy/luci-theme-kucat.git
 cd ..
 
 git clone --depth=1 -b master https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
